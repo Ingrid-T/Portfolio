@@ -1,0 +1,95 @@
+body { background: #4918D2;
+color: white}
+
+@font-face {
+	font-family: 'KaushanScript';
+	src: url('KaushanScript-Regular.otf');
+}
+
+hr {width: 200px;}
+
+.titre {text-align: center;
+font-family: KaushanScript;
+font-size: 20px;
+color: #F0AD4C}
+
+/*Header*/
+
+.header {background-image: url("ecran1.jpg");
+background-size: cover;}
+
+.header .navbar{ text-align: center; }
+
+.header .navbar ul{ list-style: none;}
+
+.header .navbar ul li {display: inline-block;
+margin: 0 25px;
+padding: 25px;
+font-family: KaushanScript;
+font-size: 20px;}
+
+.header .navbar ul li a {text-decoration: none;
+color: white}
+
+.header .navbar ul li:hover {background : #F0AD4C}
+
+.header .welcome {text-align: center; 
+margin-top: 205px; 
+padding: 25px;
+font-family: KaushanScript }
+
+.header .welcome h1 { text-transform: uppercase;
+font-size: 75px;
+color: #F0AD4C }
+
+.header .welcome p {font-size: 20px}
+
+/*Profil*/
+
+.profil .photo img {width: 100px;
+height: 150px; 
+border: 4px solid #F0AD4C;
+margin: 20px}
+
+.profil .container {text-align: center;}
+
+.profil .details {font-family: KaushanScript;}
+
+.profil { margin: 50px; }
+
+/*Compétences*/
+
+.competences .programme img {width: 50px;
+height: 50px;
+border: 4px solid #F0AD4C;
+background-color: white}
+
+.competences {margin: auto; 
+	font-family: KaushanScript;
+}
+
+.competences .boxes .programme {width: 32.5%;
+text-align: center;
+float: left;
+margin-top: 50px;
+margin-right: 10px;
+margin-bottom: 50px}
+
+.competences .programme h3 {color: #E275F4}
+
+.clearfix{clear: both}
+
+/*Contact*/
+
+.contact {margin: 50px;}
+
+.formulaire input, textarea {border: 4px solid #F0AD4C; 
+width: 100%;
+margin: 5px; }
+
+.formulaire label {font-family: 'KaushanScript';}
+
+.formulaire button {background-color: #E275F4; 
+color: white;
+width: 75px;
+font-family: 'KaushanScript'}
