@@ -65,8 +65,9 @@ border: 4px solid #F0AD4C;
 background-color: white}
 
 .competences {margin: auto; 
-	font-family: KaushanScript;
-}
+	font-family: KaushanScript;}
+
+.competences .boxes {display: inline-flex;}
 
 .competences .boxes .programme {width: 32.5%;
 text-align: center;
@@ -79,17 +80,41 @@ margin-bottom: 50px}
 
 .clearfix{clear: both}
 
+/*Expériences*/
+
+.experiences .timeline ul {border-left: 4px solid #F0AD4C;
+list-style-type: none;
+padding: 20px;
+margin: 50px;
+font-family: KaushanScript;
+}
+
+.timeline li {padding: 20px}
+
+.experiences .timeline h3 {color: #E275F4;
+text-transform: uppercase;
+}
+
+.cv button { background-color: #E275F4; 
+color: white;
+width: 150px;
+font-family: 'KaushanScript'; 
+margin: 50px;
+margin-top: 5px;}
+
 /*Contact*/
 
 .contact {margin: 50px;}
 
-.formulaire input, textarea {border: 4px solid #F0AD4C; 
-width: 100%;
-margin: 5px; }
+.formulaire input, textarea {border: 4px solid #F0AD4C;
+margin: 5px; 
+display: block;
+width: 250px;}
 
 .formulaire label {font-family: 'KaushanScript';}
 
 .formulaire button {background-color: #E275F4; 
 color: white;
 width: 75px;
-font-family: 'KaushanScript'}
+font-family: 'KaushanScript';
+margin-top: 30px}
